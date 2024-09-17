@@ -15,11 +15,15 @@
       cursor: pointer;
     }
     
-    .button1 {background-color: #111aaa;} /* THIS BE BUTTON */
-    .button2 {background-color: #222bbb;} /* ALSO BUTON */
+    .button1 {background-color: #0ff20f;} /* THIS BE BUTTON */
+    .button2 {background-color: #ff0000;} /* ALSO BUTON */
+    .button3 {background-color: #fff700;}
     
     .active {
-        transform: translateX(250px);
+        transform: translateY(250px);
+    }
+    .hello {
+        background-color: #000000;
     }
     </style>
 </head>
@@ -37,9 +41,13 @@
     <p>
         Welcome, to planet Dodele. In here we will cover inhabitant species, physical geography and its empire.
     </p>
+    <p>
+        but before we start, here are some useless buttons.
+    </p>
 
-    <button class="button button1">Green</button>
-    <button class="button button2">Blue</button>
+    <button class="button button1">MOVE A ME</button>
+    <button class="button button2">CLICK A ME</button>
+    <button class="button button3">COLOUR A ME</button>
     
     <footer>
         <h1>
@@ -50,21 +58,19 @@
     <script>
         const button1 = document.querySelector('.button1');
         const button2 = document.querySelector('.button2');
+        const button3 = document.querySelector('.button3');
         
         button1.addEventListener('click', () => {
            button1.classList.toggle('active');
         });
         
-        
-        
-        
-        
-        
-        
-        
         button2.addEventListener('click', () => {
             close(); 
         });
+
+        button3.addEventListener('click', () => {
+            button3.classList.toggle('hello')
+        })
         
     </script>
 </body>
