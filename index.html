@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+    <!--Title and style-->
+
+
     <title>Planet Dodele</title>
     <style>
     .button {
@@ -15,21 +20,65 @@
       cursor: pointer;
     }
     
-    .button1 {background-color: #0ff20f;} /* THIS BE BUTTON */
-    .button2 {background-color: #ff0000;} /* ALSO BUTON */
-    .button3 {background-color: #fff700;}
-    .button4 {background-color:aqua;}
+    .button1 {
+        background-color: #0ff20f;
+        color: black;
+    } /* THIS BE BUTTON */
+    .button2 {
+        background-color: #ff0000;
+        color: black;
+    } /* ALSO BUTON */
+    .button3 {
+        background-color: #fff700;
+        color: black;
+    }
+    .button4 {
+        background-color:aqua;
+        color: black
+    }
     
     .active {
         transform: translateY(250px);
     }
     .hello {
         background-color: black;
+        color: white;
     }
     .activate {
         text-transform: lowercase;
     }
+    body {
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color:rgb(255, 255, 255)
+}
+button {
+font-family:'Times New Roman', Times, serif;
+outline:rgb(255, 255, 255);
+outline-offset: 0px;
+outline-width: 2px;
+outline-color: white;
+outline-style: solid;
+}
+
     </style>
+
+
+    <!--MAIN TEXT BODY-->
+
+
 </head>
 <body>
     <h1>
@@ -42,31 +91,30 @@
     <br>
     <img src="dodele.png">
     <h3>
-        the most cursed planet to exist
+       the stupid website
     </h3>
     <p>
-        Welcome, to planet Dodele. In here we will cover inhabitant species, physical geography and its empire.
+        This is my website. It is website-y.
     </p>
     <p>
-        but before we start, here are some useless buttons.
+        for tutoring purposes, here are some useless buttons.
     </p>
+
+
+    <!--BUTTONS-->
+
 
     <button class="button button1">MOVE A ME</button>
     <button class="button button2">CLICK A ME</button>
     <button class="button button3">COLOUR A ME</button>
     <button class="button button4">DEMOTE A ME</button>
-    
-    <footer>
-        <h1>
-            Mate. This is the end of the page.
-        </h1>
-    </footer>
-    
+
     <script>
         const button1 = document.querySelector('.button1');
         const button2 = document.querySelector('.button2');
         const button3 = document.querySelector('.button3');
-        const button4 = document.querySelector('.button4')
+        const button4 = document.querySelector('.button4');
+
         button1.addEventListener('click', () => {
            button1.classList.toggle('active');
         });
@@ -82,6 +130,38 @@
         button4.addEventListener('click', () => {
             button4.classList.toggle('activate')
         })
+
     </script>
+    
+    <footer>
+        <!--the footer-->
+        <h1>
+           this is a footer. The other parts are the body.
+        </h1>
+    </footer>
+
+
+<!--Image hyperlink-->
+
+
+    <style>
+        a:link, a:visited {
+          background-color:black;
+          color: white;
+          padding: 14px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+        }
+        
+        a:hover, a:active {
+          background-color: black;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <p>HYPERLINK TUTORIAL:</p>
+        <a href="https://rasperrevision.github.io/" target="_blank"><img src="rasper.svg"  width="198.2" height="70"></a>
 </body>
 <html>
