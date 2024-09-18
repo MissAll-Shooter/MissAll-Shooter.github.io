@@ -18,12 +18,16 @@
     .button1 {background-color: #0ff20f;} /* THIS BE BUTTON */
     .button2 {background-color: #ff0000;} /* ALSO BUTON */
     .button3 {background-color: #fff700;}
+    .button4 {background-color:aqua;}
     
     .active {
         transform: translateY(250px);
     }
     .hello {
-        background-color: #000000;
+        background-color: black;
+    }
+    .activate {
+        text-transform: lowercase;
     }
     </style>
 </head>
@@ -50,6 +54,7 @@
     <button class="button button1">MOVE A ME</button>
     <button class="button button2">CLICK A ME</button>
     <button class="button button3">COLOUR A ME</button>
+    <button class="button button4">DEMOTE A ME</button>
     
     <footer>
         <h1>
@@ -61,7 +66,7 @@
         const button1 = document.querySelector('.button1');
         const button2 = document.querySelector('.button2');
         const button3 = document.querySelector('.button3');
-        
+        const button4 = document.querySelector('.button4')
         button1.addEventListener('click', () => {
            button1.classList.toggle('active');
         });
@@ -74,6 +79,9 @@
             button3.classList.toggle('hello')
         })
         
+        button4.addEventListener('click', () => {
+            button4.classList.toggle('activate')
+        })
     </script>
 </body>
 <html>
