@@ -119,6 +119,8 @@ p {
 }
 
 .sidebar a {
+    padding-left: 20px;
+    padding-top: 5px;
     color: white;
     display: block;
 }
@@ -127,19 +129,6 @@ p {
     transform: none;
 }
 
-
-a:link, a:visited {
-    background-color:black;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover, a:active {
-    background-color: black;
-}
 
 @media screen and (min-width: 1000px) {
     .sidebar {
