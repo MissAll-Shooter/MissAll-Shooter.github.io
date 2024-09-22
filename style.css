@@ -37,6 +37,11 @@
     color: white;
 }
 
+.button6 {
+    background-color: antiquewhite;
+    color: black;
+}
+
 .hamborgor {
     position: fixed;
     top: 20px;
@@ -111,6 +116,15 @@ p {
 
 a {
     color: white;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
+
+#geog {
+    width:300px;
+    height:100px;
 }
 
 .sidebar {
