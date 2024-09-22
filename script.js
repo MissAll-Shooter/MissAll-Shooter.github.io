@@ -15,17 +15,17 @@ button2.addEventListener('click', () => {
 
 button3.addEventListener('click', () => {
     button3.classList.toggle('hello')
-})
+});
 
 button4.addEventListener('click', () => {
     button4.classList.toggle('activate')
-})
+});
 
 button5.addEventListener('click', () => {
     var x = document.getElementById("myDiv");
-    x.innerHTML = "things are now in proggress that cannot be undone.";
-})
+    x.textContent = "things are now in proggress that cannot be undone.";
+});
 
-button6.addEventListener('click', () => {
-    
-})
+button6.addEventListener('click', e =>{
+     e.target.textContent = "HA HA";
+});
