@@ -1,5 +1,5 @@
 const hamborgor_html = `<div class="hmbrgricn hmbrgricn1"></div><div class="hmbrgricn hmbrgricn2"></div><div class="hmbrgricn hmbrgricn3"></div>`;
-const sidebar_html = `<a href="/"><img src="/TutoringDodeleReal.png" id="geog"></a><a href="/chooter/"><img src="/GeographyDodele.png" id="geog"></a><a href="/butonz/"><img src="/ButtonsDodele.png" id="geog"></a><a href="/story/">story</a>`;
+const sidebar_html = `<a href="/"><img src="/TutoringDodeleReal.png" id="geog"></a><a href="/chooter/"><img src="/GeographyDodele.png" id="geog"></a><a href="/butonz/"><img src="/ButtonsDodele.png" id="geog"></a><a href="/story/"><img src="/StoryDodele.png" id="geog"></a>`;
 
 const sidebar = document.createElement('div');
 const hamborgor = document.createElement('button');

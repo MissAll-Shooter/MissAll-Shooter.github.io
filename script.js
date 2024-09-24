@@ -3,7 +3,7 @@ const button2 = document.querySelector('.button2');
 const button3 = document.querySelector('.button3');
 const button4 = document.querySelector('.button4');
 const button5 = document.querySelector('.button5');
-const button6 = document.querySelector('.button6');
+const button7 = document.querySelector('.button7');
 
 button1.addEventListener('click', () => {
    button1.classList.toggle('active');
@@ -26,6 +26,6 @@ button5.addEventListener('click', () => {
     x.textContent = "things are now in proggress that cannot be undone.";
 });
 
-button6.addEventListener('click', e =>{
-     e.target.textContent = "HA HA";
+button7.addEventListener('click', () => {
+     button7.classList.toggle('blurry');
 });

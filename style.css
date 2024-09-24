@@ -37,7 +37,7 @@
     color: white;
 }
 
-.button6 {
+.button7 {
     background-color: antiquewhite;
     color: black;
 }
@@ -94,6 +94,9 @@
 }
 .activate {
     text-transform: lowercase;
+}
+.blurry {
+    background-color: blue;
 }
 
 body {
