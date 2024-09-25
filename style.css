@@ -130,6 +130,11 @@ img {
     height:100px;
 }
 
+#tigamap {
+    width: 500px;
+    height: 600px
+}
+
 .sidebar {
     position: fixed;
     width: 100vw;
