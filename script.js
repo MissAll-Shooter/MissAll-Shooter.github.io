@@ -4,6 +4,7 @@ const button3 = document.querySelector('.button3');
 const button4 = document.querySelector('.button4');
 const button5 = document.querySelector('.button5');
 const button7 = document.querySelector('.button7');
+const movedown = document.querySelector('.movedown');
 
 button1.addEventListener('click', () => {
    button1.classList.toggle('active');
@@ -28,4 +29,8 @@ button5.addEventListener('click', () => {
 
 button7.addEventListener('click', () => {
      button7.classList.toggle('blurry');
+});
+
+movedown.addEventListener('click', () => {
+    movedown.classList.toggle('down')
 });

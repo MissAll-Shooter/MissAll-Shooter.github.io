@@ -42,6 +42,10 @@
     color: black;
 }
 
+.movedown {
+    background-color:blueviolet;
+}
+
 .hamborgor {
     position: fixed;
     top: 20px;
@@ -97,6 +101,9 @@
 }
 .blurry {
     background-color: blue;
+}
+.down {
+    transform: translateY(50px);
 }
 
 body {
