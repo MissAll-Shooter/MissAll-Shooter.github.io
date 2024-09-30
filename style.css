@@ -114,6 +114,9 @@
 .down {
     transform: translateY(50px);
 }
+.gugugaga {
+    background-color: #fff700;
+}
 
 body {
     background-color: rgb(0, 0, 0);
