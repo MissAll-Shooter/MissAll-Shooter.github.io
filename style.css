@@ -50,6 +50,11 @@
     transform: translateY(1000px);
 }
 
+#imagebutton {
+    width: 200px;
+    height: 50px;
+}
+
 .hamborgor {
     position: fixed;
     top: 20px;
