@@ -186,3 +186,7 @@ img {
         transform: translateX(-500px);
     }
 }
+#CellDiagram {
+    width: 1200px;
+    height: 1000px;
+}
