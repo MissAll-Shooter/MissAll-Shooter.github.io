@@ -25,3 +25,12 @@ button5.addEventListener('click', () => {
     var x = document.getElementById("myDiv");
     x.textContent = "things are now in proggress that cannot be undone.";
 });
+
+document.addEventListener('keydown', (event) => {
+    // Check which key has been pressed
+    const keyPressed = event.key;
+
+    // Prevent the default behavior if needed
+    if (keyPressed === 'Enter') {
+        window.alert('enter pressed');
+    }})
