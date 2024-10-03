@@ -33,4 +33,4 @@ document.addEventListener('keydown', (event) => {
     // Prevent the default behavior if needed
     if (keyPressed === 'Enter') {
         window.alert('enter pressed');
-    }})
+    }});
