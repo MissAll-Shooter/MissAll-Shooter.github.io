@@ -73,7 +73,7 @@
     width: 32px;
     height: 3px;
     background-color: rgb(230, 230, 230);
-    transition: all 400ms cubic-bezier(.84, .06, .52, 1.8);
+    transition: all 400ms cubic-bezier(1,1.93,.19,1.71);
 }
 
 .hmbrgricn1 {
@@ -83,7 +83,7 @@
 
 .hmbrgricn3 {
     transform: translateY(10px);
-    transition-delay: 250ms;
+    transition-delay: 100ms;
 }
 
 .hamborgor.open .hmbrgricn1 {
