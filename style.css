@@ -83,7 +83,7 @@
 
 .hmbrgricn3 {
     transform: translateY(10px);
-    transition-delay: 100ms;
+    transition-delay: 200ms;
 }
 
 .hamborgor.open .hmbrgricn1 {
