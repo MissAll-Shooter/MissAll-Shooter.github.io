@@ -23,7 +23,7 @@ button4.addEventListener('click', () => {
 
 button5.addEventListener('click', () => {
     var x = document.getElementById("myDiv");
-    x.textContent = "things are now in proggress that cannot be undone.";
+    x.textContent = "things are now in progress that cannot be undone.";
 });
 
 document.addEventListener('keydown', (event) => {
