@@ -73,7 +73,7 @@
     width: 32px;
     height: 3px;
     background-color: rgb(230, 230, 230);
-    transition: all 400ms cubic-bezier(1,1.93,.19,1.71);
+    transition: all 400ms cubic-bezier(.69,-0.55,.35,1.74);
 }
 
 .hmbrgricn1 {
