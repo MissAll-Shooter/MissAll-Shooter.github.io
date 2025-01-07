@@ -22,8 +22,14 @@
         <button type="button" class="button buttono" onclick="buttono.classList.toggle('gugugaga')" style="background-color: chocolate;">nothing...</button>
         <button type="button" class="button" onclick="window.alert(Math.floor(Math.random() * 10))" style="background-color: darkolivegreen;">random number generator!</button>
         <button type="button" class="button" onclick="window.alert()" style="background-color: chartreuse;">nothing here right?</button>
+        <button type="button" class="button" onclick="numbar = numbar + 1">BUTTON</button>
+        <a id="demo"></a>
     </body>
 
     <script src="/sidebar.js"></script>
     <script src="/script.js"></script>
+    <script>
+        document.getElementById("demo").innerHTML=
+        "you have clicked that button " + numbar + " times.";
+    </script>
 </hmtl>

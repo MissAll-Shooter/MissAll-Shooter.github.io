@@ -5,6 +5,7 @@ const button4 = document.querySelector('.button4');
 const button5 = document.querySelector('.button5');
 const button100 = document.querySelector('.button100');
 const buttono = document.querySelector('.buttono');
+var numbar = 0;
 button1.addEventListener('click', () => {
    button1.classList.toggle('active');
 });
